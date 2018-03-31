@@ -2,15 +2,15 @@
 
 A collection of tools and references around container networking accompanying my O'Reilly book _Container Networking_.
 
-![Container Networking book cover](img/cn-book.png)
-
 - [Networking 101](#networking-101)
 - [Linux Kernel And Low-Level Components](#linux-kernel-and-low-level-components)
 - [Docker](#docker)
 - [Kubernetes](#kubernetes)
-    - [Docs](#docs)
-    - [3rd party](#3rd-party)
 - [Tooling](#tooling)
+
+![Container Networking book cover](img/cn-book.png)
+
+---
 
 ## Networking 101
 
