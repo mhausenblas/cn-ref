@@ -79,6 +79,8 @@ A collection of tools and references around container networking accompanying my
 
 ### SDN
 
+- [OpenContrail](http://www.opencontrail.org/)
+- [Contiv](http://contiv.github.io/)
 - [flannel](https://coreos.com/flannel/docs/latest/)
 - Weaveworks [Weave](http://weave.works/)
 - Metaswitch’s [Project Calico](http://www.projectcalico.org/) and [canal](https://github.com/projectcalico/canal)
