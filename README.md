@@ -6,14 +6,15 @@ A collection of tools and references around container networking accompanying my
 - [Linux kernel](#linux-kernel)
 - [Docker](#docker)
 - [Kubernetes](#kubernetes)
-    - [Official documentation](#official-documentation)
-    - [3rd-party articles](#3rd-party-articles)
+  - [Official documentation](#official-documentation)
+  - [3rd-party articles](#3rd-party-articles)
 - [Tooling](#tooling)
-    - [SDN](#sdn)
-    - [Proxies and load balancers](#proxies-and-load-balancers)
-    - [Ingress and gateways](#ingress-and-gateways)
-    - [Service Meshes](#service-meshes)
-    - [Other](#other)
+  - [SDN](#sdn)
+  - [Proxies and load balancers](#proxies-and-load-balancers)
+  - [Ingress and gateways](#ingress-and-gateways)
+  - [Service Meshes](#service-meshes)
+  - [Other](#other)
+
 ---
 
 ![Container Networking book cover](img/cn-book.png)
