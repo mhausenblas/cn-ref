@@ -52,6 +52,7 @@ A collection of tools and references around container networking accompanying my
 - [Administration—Cluster Networking](https://kubernetes.io/docs/concepts/cluster-administration/networking/)
 - [Provide Load-Balanced Access to an Application in a Cluster](https://kubernetes.io/docs/tasks/access-application-cluster/load-balance-access-application-cluster/)
 - [Create an External Load Balancer](https://kubernetes.io/docs/tasks/access-application-cluster/create-external-load-balancer/)
+- [DNS for Services and Pods](https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/)
 - [Kubernetes DNS example](https://github.com/kubernetes/examples/blob/master/staging/cluster-dns/README.md)
 - [Issue 44063](https://github.com/kubernetes/kubernetes/issues/44063): Implement IPVS-based in-cluster service load balancing
 
@@ -83,11 +84,19 @@ A collection of tools and references around container networking accompanying my
 - [Open vSwitch](http://openvswitch.org/) 
 - [OpenVPN](https://openvpn.net/)
 
+### DNS
+
+- [CoreDNS](https://coredns.io/)
+- [Kubernetes DNS](https://github.com/kubernetes/dns)
+- [WeaveDNS](https://www.weave.works/docs/net/latest/tasks/weavedns/weavedns/)
 
 ### Proxies and load balancers
 
 - [Envoy](https://www.envoyproxy.io/): cloud-native proxy supporting HTTP/2 and gRPC
+- [HAProxy](http://www.haproxy.org/): load balancing and proxying for TCP and HTTP-based apps
+- [kube-proxy](https://kubernetes.io/docs/reference/generated/kube-proxy/): Kubernetes built-in East-West traffic service proxy (managing IPtables entries)
 - [MetalLB](https://metallb.universe.tf/): a load-balancer implementation for bare metal Kubernetes clusters using ARP, NDP, or BGP.
+- [NGINX Reverse Proxy](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/): configuring NGINX as a reverse proxy
 - [Træfik](https://traefik.io/): a HTTP reverse proxy and load balancer
 
 ### Ingress and gateways
