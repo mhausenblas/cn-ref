@@ -13,7 +13,7 @@ A collection of tools and references around container networking accompanying my
     - [Proxies and load balancers](#proxies-and-load-balancers)
     - [Ingress and gateways](#ingress-and-gateways)
     - [Service Meshes](#service-meshes)
-
+    - [Other](#other)
 ---
 
 ![Container Networking book cover](img/cn-book.png)
