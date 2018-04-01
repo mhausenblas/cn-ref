@@ -132,4 +132,5 @@ A collection of tools and references around container networking accompanying my
 - [coreos/go-iptables](https://github.com/coreos/go-iptables): Go bindings for IPtables
 - [coreos/matchbox](https://github.com/coreos/matchbox): network boot and provision Container Linux clusters
 - [jetstack/cert-manager](https://github.com/jetstack/cert-manager/): automatically manage TLS certificates in Kubernetes
+- [Skydive](http://skydive-project.github.io/skydive/): real-time network topology and protocols analyzer
 
