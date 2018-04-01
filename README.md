@@ -3,10 +3,16 @@
 A collection of tools and references around container networking accompanying my O'Reilly book _Container Networking_.
 
 - [Networking 101](#networking-101)
-- [Linux Kernel And Low-Level Components](#linux-kernel-and-low-level-components)
+- [Linux kernel](#linux-kernel)
 - [Docker](#docker)
 - [Kubernetes](#kubernetes)
+    - [Official documentation](#official-documentation)
+    - [3rd-party articles](#3rd-party-articles)
 - [Tooling](#tooling)
+    - [SDN](#sdn)
+    - [Proxies and load balancers](#proxies-and-load-balancers)
+    - [Ingress and gateways](#ingress-and-gateways)
+    - [Service Meshes](#service-meshes)
 
 ---
 
