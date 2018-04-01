@@ -77,11 +77,11 @@ A collection of tools and references around container networking accompanying my
 
 ### SDN
 
-- https://coreos.com/flannel/docs/latest/[flannel]
-- Weaveworks http://weave.works/[Weave] 
-- Metaswitch’s http://www.projectcalico.org/[Project Calico] and  https://github.com/projectcalico/canal[canal]
-- http://openvswitch.org/[Open vSwitch] 
-- https://openvpn.net/[OpenVPN],
+- [flannel](https://coreos.com/flannel/docs/latest/)
+- Weaveworks [Weave](http://weave.works/)
+- Metaswitch’s [Project Calico](http://www.projectcalico.org/) and [canal](https://github.com/projectcalico/canal)
+- [Open vSwitch](http://openvswitch.org/) 
+- [OpenVPN](https://openvpn.net/)
 
 
 ### Proxies and load balancers
