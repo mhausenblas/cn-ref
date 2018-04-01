@@ -79,14 +79,16 @@ A collection of tools and references around container networking accompanying my
 
 ### SDN
 
+- [canal](https://github.com/projectcalico/canal)
 - [Cilium](https://github.com/cilium/cilium)
-- [OpenContrail](http://www.opencontrail.org/)
 - [Contiv](http://contiv.github.io/)
+- [Contrail](https://www.juniper.net/us/en/products-services/sdn/contrail/)
 - [flannel](https://coreos.com/flannel/docs/latest/)
-- Weaveworks [Weave](http://weave.works/)
-- Metaswitch’s [Project Calico](http://www.projectcalico.org/) and [canal](https://github.com/projectcalico/canal)
 - [Open vSwitch](http://openvswitch.org/) 
 - [OpenVPN](https://openvpn.net/)
+- [Project Calico](http://www.projectcalico.org/)
+- [Tungsten Fabric](https://tungstenfabric.io/)
+- [Weave](http://weave.works/)
 
 ### DNS
 
