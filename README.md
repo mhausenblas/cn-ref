@@ -88,7 +88,7 @@ A collection of tools and references around container networking accompanying my
 - [OpenVPN](https://openvpn.net/)
 - [Project Calico](http://www.projectcalico.org/)
 - [Tungsten Fabric](https://tungstenfabric.io/)
-- [Weave](http://weave.works/)
+- [Weave Net](https://www.weave.works/oss/net/)
 
 ### DNS
 
