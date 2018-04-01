@@ -79,6 +79,7 @@ A collection of tools and references around container networking accompanying my
 
 ### SDN
 
+- [Cilium](https://github.com/cilium/cilium)
 - [OpenContrail](http://www.opencontrail.org/)
 - [Contiv](http://contiv.github.io/)
 - [flannel](https://coreos.com/flannel/docs/latest/)
