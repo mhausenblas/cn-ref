@@ -92,6 +92,7 @@ A collection of tools and references around container networking accompanying my
 
 ### Proxies and load balancers
 
+- [coreos/corelb](https://github.com/coreos/corelb): a loadbalancer built on coreinit and NGINX
 - [Envoy](https://www.envoyproxy.io/): cloud-native proxy supporting HTTP/2 and gRPC
 - [HAProxy](http://www.haproxy.org/): load balancing and proxying for TCP and HTTP-based apps
 - [kube-proxy](https://kubernetes.io/docs/reference/generated/kube-proxy/): Kubernetes built-in East-West traffic service proxy (managing IPtables entries)
@@ -103,6 +104,9 @@ A collection of tools and references around container networking accompanying my
 
 - [Ambassador](https://www.getambassador.io/): a Kubernetes-native API gateway built on Envoy
 - [Contour](https://github.com/heptio/contour): a Kubernetes Ingress controller for Envoy
+- [coreos/alb-ingress-controller](- https://github.com/coreos/alb-ingress-controller
+): a Kubernetes Ingress Controller for AWS ALB 
+- [kube-router](https://www.kube-router.io/): IPVS-based service proxy, Network Policy  controller, 
 - Kubernetes [Ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/) controllers:
   - [kubernetes/ingress-gce](https://github.com/kubernetes/ingress-gce/)
   - [kubernetes/ingress-nginx](https://github.com/kubernetes/ingress-nginx)
@@ -114,3 +118,10 @@ A collection of tools and references around container networking accompanying my
 - [Conduit](https://conduit.io/): an ultralight service mesh for Kubernetes
 - [Istio](https://istio.io/): an open platform to connect, manage, and secure microservices
 - [Linkerd](https://linkerd.io/): a transparent proxy to be deployed as a service mesh
+
+
+### Other
+
+- [coreos/go-iptables](https://github.com/coreos/go-iptables): Go bindings for IPtables
+- [coreos/matchbox](https://github.com/coreos/matchbox): network boot and provision Container Linux clusters
+- [jetstack/cert-manager](https://github.com/jetstack/cert-manager/): automatically manage TLS certificates in Kubernetes
