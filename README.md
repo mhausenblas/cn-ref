@@ -8,9 +8,9 @@ A collection of tools and references around container networking accompanying my
 - [Kubernetes](#kubernetes)
 - [Tooling](#tooling)
 
-![Container Networking book cover](img/cn-book.png)
-
 ---
+
+![Container Networking book cover](img/cn-book.png)
 
 ## Networking 101
 
@@ -18,7 +18,7 @@ A collection of tools and references around container networking accompanying my
 - [Demystifying container networking](http://blog.mbrt.it/2017-10-01-demystifying-container-networking/) by Michele Bertasi
 - [An Empirical Study of Load Balancing Algorithms](http://liblb.com/learn.html)
 
-## Linux Kernel And Low-Level Components
+## Linux kernel
 
 - [The History of Containers](http://red.ht/1mCDpJU)
 - [A history of low-level Linux container runtimes](https://opensource.com/article/18/1/history-low-level-container-runtimes)
@@ -27,6 +27,7 @@ A collection of tools and references around container networking accompanying my
 - [Network namespaces](https://lwn.net/Articles/219794/)
 - [Network classifier cgroup](https://www.kernel.org/doc/Documentation/cgroup-v1/net_cls.txt)
 - [Exploring LXC Networking](http://bit.ly/1kMA2hE)
+- [IPv6 and Containers: Why We Can't Have Nice Things (And How We Can)](https://www.youtube.com/watch?v=eF50OxZ5u4o)
 
 ## Docker
 
@@ -38,7 +39,7 @@ A collection of tools and references around container networking accompanying my
 
 ## Kubernetes 
 
-### Docs
+### Official documentation
 
 - [Networking design](https://github.com/kubernetes/community/blob/master/contributors/design-proposals/network/networking.md)
 - [Services](https://kubernetes.io/docs/concepts/services-networking/service/)
@@ -48,8 +49,9 @@ A collection of tools and references around container networking accompanying my
 - [Kubernetes DNS example](https://github.com/kubernetes/examples/blob/master/staging/cluster-dns/README.md)
 - [Issue 44063](https://github.com/kubernetes/kubernetes/issues/44063): Implement IPVS-based in-cluster service load balancing
 
-### 3rd party
+### 3rd-party articles
 
+- [Tutorials and Recipes for using Kubernetes Network Policies feature](https://github.com/ahmetb/kubernetes-network-policy-recipes) by Ahmet Alp Balkan
 - [Data and analysis of the Kubernetes Ingress survey 2018](https://github.com/bowei/k8s-ingress-survey-2018) by the Kubernetes SIG Network
 - [Kubernetes Networking 101](https://www.slideshare.net/weaveworks/kubernetes-networking-78049891) by Bryan Boreham of WeaveWorks
 - [Illustrated Guide To Kubernetes Networking](https://speakerdeck.com/thockin/illustrated-guide-to-kubernetes-networking) by Tim Hockin of Google
@@ -67,14 +69,33 @@ A collection of tools and references around container networking accompanying my
 
 ## Tooling
 
+### SDN
+
+- https://coreos.com/flannel/docs/latest/[flannel]
+- Weaveworks http://weave.works/[Weave] 
+- Metaswitch’s http://www.projectcalico.org/[Project Calico] and  https://github.com/projectcalico/canal[canal]
+- http://openvswitch.org/[Open vSwitch] 
+- https://openvpn.net/[OpenVPN],
+
+
+### Proxies and load balancers
+
+- [Envoy](https://www.envoyproxy.io/): cloud-native proxy supporting HTTP/2 and gRPC
+- [MetalLB](https://metallb.universe.tf/): a load-balancer implementation for bare metal Kubernetes clusters using ARP, NDP, or BGP.
+- [Træfik](https://traefik.io/): a HTTP reverse proxy and load balancer
+
+### Ingress and gateways
+
 - [Ambassador](https://www.getambassador.io/): a Kubernetes-native API gateway built on Envoy
-- [Conduit](https://conduit.io/): an ultralight service mesh for Kubernetes
 - [Contour](https://github.com/heptio/contour): a Kubernetes Ingress controller for Envoy
 - Kubernetes [Ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/) controllers:
   - [kubernetes/ingress-gce](https://github.com/kubernetes/ingress-gce/)
   - [kubernetes/ingress-nginx](https://github.com/kubernetes/ingress-nginx)
   - [nginxinc/kubernetes-ingress](https://github.com/nginxinc/kubernetes-ingress)
   - [zlabjp/nghttpx-ingress-lb](https://github.com/zlabjp/nghttpx-ingress-lb)
+
+### Service Meshes
+
+- [Conduit](https://conduit.io/): an ultralight service mesh for Kubernetes
 - [Istio](https://istio.io/): an open platform to connect, manage, and secure microservices
 - [Linkerd](https://linkerd.io/): a transparent proxy to be deployed as a service mesh
-- [Træfik](https://traefik.io/): a HTTP reverse proxy and load balancer
