@@ -98,9 +98,11 @@ A collection of tools and references around container networking accompanying my
 
 ### DNS
 
-- [CoreDNS](https://coredns.io/)
-- [Kubernetes DNS](https://github.com/kubernetes/dns)
-- [WeaveDNS](https://www.weave.works/docs/net/latest/tasks/weavedns/weavedns/)
+- [CoreDNS](https://coredns.io/): a DNS server written in Go
+- [kubernetes-incubator/external-dns](https://github.com/kubernetes-incubator/external-dns): configure external DNS servers (AWS Route53, Google CloudDNS and others) for Ingresses and services
+- [Kubernetes DNS](https://github.com/kubernetes/dns): part of Kubernetes proper, schedules a DNS pod and service, and configures the `kubelet`s to tell individual containers to use the DNS Service’s IP to resolve DNS names
+- [SkyDNS](https://github.com/skynetservices/skydns): a distributed service for announcement and discovery of services built on top of etcd
+- [WeaveDNS](https://www.weave.works/docs/net/latest/tasks/weavedns/weavedns/): a DNS server answering name queries on a Weave network
 
 ### Proxies and load balancers
 
