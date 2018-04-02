@@ -85,16 +85,16 @@ A collection of tools and references around container networking accompanying my
 
 ### SDN
 
-- [canal](https://github.com/projectcalico/canal)
-- [Cilium](https://github.com/cilium/cilium)
-- [Contiv](http://contiv.github.io/)
-- [Contrail](https://www.juniper.net/us/en/products-services/sdn/contrail/)
-- [flannel](https://coreos.com/flannel/docs/latest/)
-- [Open vSwitch](http://openvswitch.org/) 
-- [OpenVPN](https://openvpn.net/)
-- [Project Calico](http://www.projectcalico.org/)
-- [Tungsten Fabric](https://tungstenfabric.io/)
-- [Weave Net](https://www.weave.works/oss/net/)
+- [canal](https://github.com/projectcalico/canal): policy-based networking for cloud native applications (see also Project Calico)
+- [Cilium](https://github.com/cilium/cilium): secure network connectivity and loadbalancing based on BPF
+- [Contiv](http://contiv.github.io/): unifies containers, VMs, and bare metal with a single networking fabric
+- [Contrail](https://www.juniper.net/us/en/products-services/sdn/contrail/contrail-networking/): commercial SDN by Juniper (see also Tungsten Fabric)
+- [flannel](https://coreos.com/flannel/docs/latest/): virtual network that gives a sub-net to each host for use with a container runtime
+- [Open vSwitch](http://openvswitch.org/): multilayer virtual switch supporting standards such as NetFlow, sFlow, IPFIX, RSPAN, CLI, LACP, 802.1ag
+- [OpenVPN](https://openvpn.net/): open source VPN
+- [Project Calico](http://www.projectcalico.org/): provides secure network connectivity by managing a flat layer 3 network, using IP-in-IP tunneling or overlays such as flannel
+- [Tungsten Fabric](https://tungstenfabric.io/): network virtualization for providing connectivity and security for virtual, containerized or bare-metal workloads
+- [Weave Net](https://www.weave.works/oss/net/): cloud native networking toolkit that creates virtual networks, enables automatic discovery and offers DNS, IPAM, and a distributed virtual firewall
 
 ### DNS
 
@@ -118,7 +118,7 @@ A collection of tools and references around container networking accompanying my
 - [Contour](https://github.com/heptio/contour): a Kubernetes Ingress controller for Envoy
 - [coreos/alb-ingress-controller](- https://github.com/coreos/alb-ingress-controller
 ): a Kubernetes Ingress Controller for AWS ALB 
-- [kube-router](https://www.kube-router.io/): IPVS-based service proxy, Network Policy  controller, 
+- [kube-router](https://www.kube-router.io/): IPVS-based service proxy, Network Policy  controller
 - Kubernetes [Ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/) controllers:
   - [kubernetes/ingress-gce](https://github.com/kubernetes/ingress-gce/)
   - [kubernetes/ingress-nginx](https://github.com/kubernetes/ingress-nginx)
