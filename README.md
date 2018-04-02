@@ -10,6 +10,7 @@ A collection of tools and references around container networking accompanying my
   - [3rd-party articles](#3rd-party-articles)
 - [Tooling](#tooling)
   - [SDN](#sdn)
+  - [DNS](#dns)
   - [Proxies and load balancers](#proxies-and-load-balancers)
   - [Ingress and gateways](#ingress-and-gateways)
   - [Service Meshes](#service-meshes)
