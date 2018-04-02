@@ -54,11 +54,17 @@ A collection of tools and references around container networking accompanying my
 - [Provide Load-Balanced Access to an Application in a Cluster](https://kubernetes.io/docs/tasks/access-application-cluster/load-balance-access-application-cluster/)
 - [Create an External Load Balancer](https://kubernetes.io/docs/tasks/access-application-cluster/create-external-load-balancer/)
 - [DNS for Services and Pods](https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/)
+- [Kubernetes DNS-Based Service Discovery](https://github.com/kubernetes/dns/blob/master/docs/specification.md)
 - [Kubernetes DNS example](https://github.com/kubernetes/examples/blob/master/staging/cluster-dns/README.md)
+[Network policies](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
 - [Issue 44063](https://github.com/kubernetes/kubernetes/issues/44063): Implement IPVS-based in-cluster service load balancing
 
 ### 3rd-party articles
 
+- [Deep Dive Envoy and Istio Workshop](http://blog.christianposta.com/microservices/deep-dive-envoy-and-istio-workshop/) by Christian Posta 
+- [Getting started with Conduit - lightweight service mesh for Kubernetes](https://abhishek-tiwari.com/getting-started-with-conduit-lightweight-service-mesh-for-kubernetes/) by Abhishek Tiwari
+- [Ingress survey 2018](https://github.com/bowei/k8s-ingress-survey-2018) by SIG Network
+- [Kubernetes Services By Example](https://blog.openshift.com/kubernetes-services-by-example/)
 - [Tutorials and Recipes for using Kubernetes Network Policies feature](https://github.com/ahmetb/kubernetes-network-policy-recipes) by Ahmet Alp Balkan
 - [Data and analysis of the Kubernetes Ingress survey 2018](https://github.com/bowei/k8s-ingress-survey-2018) by the Kubernetes SIG Network
 - [Kubernetes Networking 101](https://www.slideshare.net/weaveworks/kubernetes-networking-78049891) by Bryan Boreham of WeaveWorks
